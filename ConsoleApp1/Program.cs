@@ -16,7 +16,7 @@ namespace ConsoleApp1
             // Pass a Lambda expression as a callboack
             myClass.LongRunningMethod(progress => 
             {
-                if (progress % 100 == 0) // Print only multiples of 15
+                if (progress % 100 == 0) // Print only multiples of 100
                     Console.WriteLine(progress);
             });
 
